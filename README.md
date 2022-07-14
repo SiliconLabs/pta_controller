@@ -16,15 +16,7 @@ The firmware image here is intended to be flashed on either BRD4161A ([EFR32MG12
 | RHO      | EXP-16 |  PC11|
 
 
-## Commands in the PTA Controller Application
-
-* __Sample Command:__ Command description
-	* __Command Argument:__ Argument description
-
-
-
-
-### List of Commands Available in the PTA Controller Application
+## List of Commands Available in the PTA Controller Application
 
 * __help:__ Print out list and description of commands available
 
