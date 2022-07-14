@@ -4,10 +4,22 @@ The PTA Controller application is custom application built on the Flex stack, de
 The Zigbee radios act as peripheral radio devices, and require a controller device to react and respond to coexistence requests.
 The PTA Controller application implements this and allows users control to the behavior of the PTA Controller to evaluate the corresponding behavior of the peripheral radio device.
 
+## Hardware Info
+
+The firmware image here is intended to be flashed on either BRD4161A ([EFR32MG12 2.4 GHz 20 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)) or BRD4162A ([EFR32MG12 2.4 GHz 10 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)). Per UG350, the pins are as follows:
+| Signal   | EXP Pin| EFR32MG12 Pin |
+|--------  |--------|---------------|
+| REQUEST  | EXP-15 |  PC10|
+| GRANT    | EXP-13 |  PC9 |
+| PRIORITY | EXP-11 |  PD12|
+| RHO      | EXP-16 |  PC11|
+
+
 ## Commands in the PTA Controller Application
 
 * __Sample Command:__ Command description
 	* __Command Argument:__ Argument description
+
 
 
 
@@ -63,9 +75,9 @@ The PTA Controller application implements this and allows users control to the b
 
 * __setPower:__ Set the current transmit power in deci dBm, or raw units if 'raw' is specified
 	* __[power]:__ Output power to set (range depends on capabilities of radio device. Refer to datasheet of device for more info)
-	
+
 * __getPower:__ Get the current transmit power in deci dBm
-	
+
 * __setchannel:__ Set the current radio channel
 	* __0-15:__ Value 0 corresponds to Zigbee channel 11
 
