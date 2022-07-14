@@ -3,10 +3,11 @@
 The PTA Controller application is custom application built on the Flex stack, designed to help customers evaluate coexistence features on the silicon labs devices.
 The Zigbee radios act as peripheral radio devices, and require a controller device to react and respond to coexistence requests.
 The PTA Controller application implements this and allows users control to the behavior of the PTA Controller to evaluate the corresponding behavior of the peripheral radio device.
+This application is intended to be used with the SLWSTK-COEXBP (Coexistence Development Kit). This kit is documented by [UG350: Silicon Labs Coexistence Development Kit (SLWSTK-COEXBP)](https://www.silabs.com/documents/public/user-guides/ug350-coexistence-development-kit.pdf).
 
 ## Hardware Info
 
-The firmware image here is intended to be flashed on either BRD4161A ([EFR32MG12 2.4 GHz 20 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)) or BRD4162A ([EFR32MG12 2.4 GHz 10 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)). Per UG350, the pins are as follows:
+The firmware image here is intended to be flashed on either BRD4161A ([EFR32MG12 2.4 GHz 20 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)) or BRD4162A ([EFR32MG12 2.4 GHz 10 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)). Per [UG350: Silicon Labs Coexistence Development Kit (SLWSTK-COEXBP)](https://www.silabs.com/documents/public/user-guides/ug350-coexistence-development-kit.pdf), the pins are as follows:
 | Signal   | EXP Pin| EFR32MG12 Pin |
 |--------  |--------|---------------|
 | REQUEST  | EXP-15 |  PC10|
