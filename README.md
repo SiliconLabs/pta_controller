@@ -7,7 +7,7 @@ This application is intended to be used with the SLWSTK-COEXBP (Coexistence Deve
 
 ## Hardware Info
 
-The firmware image here is intended to be flashed on either BRD4161A ([EFR32MG12 2.4 GHz 20 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)) or BRD4162A ([EFR32MG12 2.4 GHz 10 dBm Radio Board](https://www.silabs.com/documents/public/reference-manuals/brd4162a-rm.pdf)). Per [UG350: Silicon Labs Coexistence Development Kit (SLWSTK-COEXBP)](https://www.silabs.com/documents/public/user-guides/ug350-coexistence-development-kit.pdf), the pins are as follows:
+The firmware image here is intended to be flashed on either BRD4161A ([EFR32MG12 2.4 GHz 20 dBm Radio Board](https://www.silabs.com/documents/public/user-guides/ug260-brd4161a.pdf)) or BRD4162A ([EFR32MG12 2.4 GHz 10 dBm Radio Board](https://www.silabs.com/documents/public/user-guides/ug261-brd4162a.pdf)). Per [UG350: Silicon Labs Coexistence Development Kit (SLWSTK-COEXBP)](https://www.silabs.com/documents/public/user-guides/ug350-coexistence-development-kit.pdf), the pins are as follows:
 | Signal   | EXP Pin| EFR32MG12 Pin |
 |--------  |--------|---------------|
 | REQUEST  | EXP-15 |  PC10|
